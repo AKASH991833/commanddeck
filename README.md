@@ -1,25 +1,13 @@
 # CommandDeck
 
-Mobile-first static Linux learning site by Akash Vishwakarma. 220 command entries with 301 distinct example command lines, each with a per-entry source link.
+292 command/use-case entries and 505 distinct example strings, including flag examples. These are not 292 unique executables.
 
-## Features
+Major-topic map on the site, source links per card, dark/light, search, filters, local bookmarks. English technical answers plus optional Hinglish guidance. No accounts, telemetry, command execution or external runtime scripts.
 
-English technical content, optional Hinglish guidance, dark/light modes, search, topic filters, local bookmarks, clear local data. Explained flags with copyable examples, distro/platform labels, impact filter and safety notes.
+## Coverage limits
 
-## Content and safety
+Broad admin/interview coverage, not every Linux concept. Kernel/modules, cgroups/namespaces, networking, permissions, processes, packages, storage, RAID/LUKS/XFS, services/boot/systemd, shell, logs, security, backup, time, identity, performance and troubleshooting are included. Ansible, Docker/KVM, databases, web servers and cloud are introductory adjacent admin skills. Deeper gaps remain: eBPF/kernel development, Btrfs/ZFS, HA/clustering, advanced routing/VPN, mail/DNS servers, Kubernetes and database replication/recovery.
 
-Original learning summaries based on linked manuals, not copied interview-answer collections. Common admin reference, not an exhaustive Linux encyclopedia. Distribution/package versions differ. Examples do not execute here; risky examples carry impact labels.
+## Maintenance and safety
 
-No accounts, third-party scripts, telemetry or external runtime dependencies. Strict meta CSP; user search values never become HTML. Local state is schema checked.
-
-## Run
-
-Serve this directory with `python3 -m http.server 8080` then open localhost:8080. GitHub Pages serves main branch root.
-
-## Source coverage
-
-See SOURCES.md and the per-entry links. Documentation reviewed 8 October 2026.
-
-## Maintenance
-
-Edit data.js to add reviewed entries, preserving unique IDs and source links. Keep risky examples labelled; rerun browser and content checks before publication.
+GitHub Pages serves main/root. New coverage is loaded by 2-commands-coverage.js before 4-data.js and 3-app.js. Source ledger is 6-SOURCES.md; verification notes 7-TESTS.md. Numeric prefixes are upload names, not missing dependencies. Reference-checked new examples are not claimed run on real servers. Inspect installed manuals and use disposable labs. No private biography or credentials in learning cards.
