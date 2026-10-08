@@ -1,14 +1,25 @@
-# CommandDeck reference sources
+# Source ledger
 
-Every learning entry carries its own reference link in `data.js`. This is the deduplicated source list (124 URLs), opened and reviewed 8 October 2026. Installed command versions vary by distribution; prefer your local `man` pages for version-specific behavior.
+Reviewed 8 October 2026. Primary manuals/vendor documentation ground per-card summaries. Installed versions differ. Career cards are generic preparation, not personal biography.
 
 - https://bind9.readthedocs.io/en/stable/manpages.html
+- https://chrony-project.org/doc/4.6/chronyc.html
+- https://docs.ansible.com/projects/ansible/latest/cli/ansible-inventory.html
+- https://docs.ansible.com/projects/ansible/latest/cli/ansible-playbook.html
+- https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html
+- https://docs.docker.com/reference/cli/docker/
+- https://docs.kernel.org/admin-guide/cgroup-v2.html
 - https://docs.openssl.org/master/man1/openssl-s_client/
+- https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/mysql.html
+- https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/mysqladmin.html
+- https://docs.oracle.com/cd/E17952_01/mysql-8.4-en/mysqldump.html
 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/configuring_and_managing_logical_volumes/index
 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_firewalls_and_packet_filters/using-and-configuring-firewalld_firewall-packet-filters
 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_software_with_the_dnf_tool/assembly_yum-commands-list_managing-software-with-the-dnf-tool
 - https://freedesktop.org/software/systemd/man/latest/journalctl.html
 - https://freedesktop.org/software/systemd/man/latest/systemctl.html
+- https://httpd.apache.org/docs/2.4/programs/apachectl.html
+- https://libvirt.org/manpages/virsh.html
 - https://linuxcommand.org/lc3_man_pages/basename1.html
 - https://linuxcommand.org/lc3_man_pages/cat1.html
 - https://linuxcommand.org/lc3_man_pages/chown1.html
@@ -49,21 +60,28 @@ Every learning entry carries its own reference link in `data.js`. This is the de
 - https://man7.org/linux/man-pages/man1/df.1.html
 - https://man7.org/linux/man-pages/man1/diff.1.html
 - https://man7.org/linux/man-pages/man1/dmesg.1.html
+- https://man7.org/linux/man-pages/man1/dpkg.1.html
 - https://man7.org/linux/man-pages/man1/du.1.html
 - https://man7.org/linux/man-pages/man1/find.1.html
+- https://man7.org/linux/man-pages/man1/flock.1.html
 - https://man7.org/linux/man-pages/man1/free.1.html
+- https://man7.org/linux/man-pages/man1/getent.1.html
 - https://man7.org/linux/man-pages/man1/getfacl.1.html
 - https://man7.org/linux/man-pages/man1/grep.1.html
 - https://man7.org/linux/man-pages/man1/hostname.1.html
 - https://man7.org/linux/man-pages/man1/hostnamectl.1.html
 - https://man7.org/linux/man-pages/man1/htop.1.html
+- https://man7.org/linux/man-pages/man1/install.1.html
 - https://man7.org/linux/man-pages/man1/iostat.1.html
+- https://man7.org/linux/man-pages/man1/journalctl.1.html
 - https://man7.org/linux/man-pages/man1/kill.1.html
 - https://man7.org/linux/man-pages/man1/last.1.html
 - https://man7.org/linux/man-pages/man1/lastb.1.html
 - https://man7.org/linux/man-pages/man1/less.1.html
+- https://man7.org/linux/man-pages/man1/localectl.1.html
 - https://man7.org/linux/man-pages/man1/locate.1.html
 - https://man7.org/linux/man-pages/man1/logger.1.html
+- https://man7.org/linux/man-pages/man1/loginctl.1.html
 - https://man7.org/linux/man-pages/man1/ls.1.html
 - https://man7.org/linux/man-pages/man1/lsattr.1.html
 - https://man7.org/linux/man-pages/man1/lscpu.1.html
@@ -71,58 +89,130 @@ Every learning entry carries its own reference link in `data.js`. This is the de
 - https://man7.org/linux/man-pages/man1/man.1.html
 - https://man7.org/linux/man-pages/man1/mkdir.1.html
 - https://man7.org/linux/man-pages/man1/more.1.html
+- https://man7.org/linux/man-pages/man1/mountpoint.1.html
 - https://man7.org/linux/man-pages/man1/passwd.1.html
 - https://man7.org/linux/man-pages/man1/pgrep.1.html
+- https://man7.org/linux/man-pages/man1/pidstat.1.html
 - https://man7.org/linux/man-pages/man1/pkill.1.html
+- https://man7.org/linux/man-pages/man1/prlimit.1.html
 - https://man7.org/linux/man-pages/man1/ps.1.html
+- https://man7.org/linux/man-pages/man1/realpath.1.html
+- https://man7.org/linux/man-pages/man1/resolvectl.1.html
 - https://man7.org/linux/man-pages/man1/rm.1.html
 - https://man7.org/linux/man-pages/man1/rmdir.1.html
+- https://man7.org/linux/man-pages/man1/rsync.1.html
 - https://man7.org/linux/man-pages/man1/sar.1.html
 - https://man7.org/linux/man-pages/man1/sed.1.html
 - https://man7.org/linux/man-pages/man1/setfacl.1.html
 - https://man7.org/linux/man-pages/man1/sha256sum.1.html
 - https://man7.org/linux/man-pages/man1/ssh.1.html
 - https://man7.org/linux/man-pages/man1/stat.1.html
+- https://man7.org/linux/man-pages/man1/strace.1.html
 - https://man7.org/linux/man-pages/man1/systemctl.1.html
+- https://man7.org/linux/man-pages/man1/systemd-analyze.1.html
 - https://man7.org/linux/man-pages/man1/tail.1.html
 - https://man7.org/linux/man-pages/man1/tar.1.html
+- https://man7.org/linux/man-pages/man1/taskset.1.html
+- https://man7.org/linux/man-pages/man1/timedatectl.1.html
 - https://man7.org/linux/man-pages/man1/timeout.1.html
 - https://man7.org/linux/man-pages/man1/top.1.html
 - https://man7.org/linux/man-pages/man1/uname.1.html
 - https://man7.org/linux/man-pages/man1/watch.1.html
 - https://man7.org/linux/man-pages/man1/wget.1.html
+- https://man7.org/linux/man-pages/man1/xargs.1.html
 - https://man7.org/linux/man-pages/man7/symlink.7.html
+- https://man7.org/linux/man-pages/man8/auditctl.8.html
+- https://man7.org/linux/man-pages/man8/ausearch.8.html
 - https://man7.org/linux/man-pages/man8/blkid.8.html
+- https://man7.org/linux/man-pages/man8/bridge.8.html
+- https://man7.org/linux/man-pages/man8/cryptsetup.8.html
+- https://man7.org/linux/man-pages/man8/dumpe2fs.8.html
 - https://man7.org/linux/man-pages/man8/ethtool.8.html
 - https://man7.org/linux/man-pages/man8/fdisk.8.html
+- https://man7.org/linux/man-pages/man8/findmnt.8.html
+- https://man7.org/linux/man-pages/man8/getcap.8.html
 - https://man7.org/linux/man-pages/man8/getenforce.8.html
 - https://man7.org/linux/man-pages/man8/groupadd.8.html
 - https://man7.org/linux/man-pages/man8/groupdel.8.html
+- https://man7.org/linux/man-pages/man8/ip-link.8.html
+- https://man7.org/linux/man-pages/man8/ip-netns.8.html
+- https://man7.org/linux/man-pages/man8/ip-rule.8.html
 - https://man7.org/linux/man-pages/man8/ip.8.html
+- https://man7.org/linux/man-pages/man8/logrotate.8.html
+- https://man7.org/linux/man-pages/man8/losetup.8.html
 - https://man7.org/linux/man-pages/man8/lsblk.8.html
+- https://man7.org/linux/man-pages/man8/lsmod.8.html
+- https://man7.org/linux/man-pages/man8/lsns.8.html
 - https://man7.org/linux/man-pages/man8/lspci.8.html
 - https://man7.org/linux/man-pages/man8/lsusb.8.html
+- https://man7.org/linux/man-pages/man8/mdadm.8.html
+- https://man7.org/linux/man-pages/man8/modinfo.8.html
+- https://man7.org/linux/man-pages/man8/modprobe.8.html
 - https://man7.org/linux/man-pages/man8/mount.8.html
 - https://man7.org/linux/man-pages/man8/parted.8.html
 - https://man7.org/linux/man-pages/man8/ping.8.html
+- https://man7.org/linux/man-pages/man8/restorecon.8.html
+- https://man7.org/linux/man-pages/man8/semanage.8.html
 - https://man7.org/linux/man-pages/man8/sestatus.8.html
+- https://man7.org/linux/man-pages/man8/ss.8.html
 - https://man7.org/linux/man-pages/man8/sudo.8.html
+- https://man7.org/linux/man-pages/man8/swapon.8.html
+- https://man7.org/linux/man-pages/man8/sysctl.8.html
 - https://man7.org/linux/man-pages/man8/tcpdump.8.html
 - https://man7.org/linux/man-pages/man8/tracepath.8.html
 - https://man7.org/linux/man-pages/man8/traceroute.8.html
+- https://man7.org/linux/man-pages/man8/tune2fs.8.html
 - https://man7.org/linux/man-pages/man8/umount.8.html
 - https://man7.org/linux/man-pages/man8/useradd.8.html
 - https://man7.org/linux/man-pages/man8/userdel.8.html
 - https://man7.org/linux/man-pages/man8/usermod.8.html
 - https://man7.org/linux/man-pages/man8/visudo.8.html
 - https://man7.org/linux/man-pages/man8/vmstat.8.html
+- https://man7.org/linux/man-pages/man8/wipefs.8.html
+- https://man7.org/linux/man-pages/man8/xfs_info.8.html
+- https://man7.org/linux/man-pages/man8/xfs_repair.8.html
 - https://manpages.debian.org/bookworm/adduser/adduser.8.en.html
 - https://manpages.debian.org/bookworm/gzip/gzip.1.en.html
+- https://manpages.debian.org/bookworm/lsof/lsof.8.en.html
+- https://manpages.debian.org/bookworm/nftables/nft.8.en.html
+- https://manpages.debian.org/bookworm/smartmontools/smartctl.8.en.html
 - https://manpages.debian.org/bookworm/unzip/unzip.1.en.html
 - https://manpages.debian.org/bookworm/zip/zip.1.en.html
+- https://manpages.debian.org/stable/apt/apt.8.en.html
 - https://networkmanager.dev/docs/api/latest/nmcli.html
+- https://nginx.org/en/docs/switches.html
 - https://www.man7.org/linux/man-pages/man1/journalctl.1.html
 - https://www.man7.org/linux/man-pages/man1/ps.1.html
 - https://www.man7.org/linux/man-pages/man8/ip.8.html
 - https://www.man7.org/linux/man-pages/man8/ss.8.html
 - https://www.openssh.org/manual.html
+- https://www.samba.org/samba/docs/current/man-html/smbclient.1.html
+
+# Coverage
+
+- Automation: 3 entries
+- Backup: 3 entries
+- Boot: 2 entries
+- Containers & VMs: 3 entries
+- Databases: 3 entries
+- Files: 29 entries
+- Identity: 1 entries
+- Kernel: 6 entries
+- Logs: 11 entries
+- Networking: 41 entries
+- Packages: 12 entries
+- Performance: 9 entries
+- Permissions: 26 entries
+- Processes: 8 entries
+- Scheduling: 10 entries
+- Security: 12 entries
+- Services: 13 entries
+- Shell: 20 entries
+- Storage: 37 entries
+- System: 16 entries
+- Text: 21 entries
+- Time: 2 entries
+- Troubleshooting: 2 entries
+- Web servers: 2 entries
+
+Not exhaustive. Deeper gaps: eBPF/kernel development, advanced routing/VPN, Btrfs/ZFS, high availability, mail/DNS service operations, Kubernetes, advanced SELinux policy, database replication/recovery, distro-specific installation.
