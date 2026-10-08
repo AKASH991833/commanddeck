@@ -1,70 +1,16 @@
-# Verification notes
+# Test notes - 8 October 2026 expansion
 
-8 October 2026.
+Automated Playwright checks (headless Chromium) passed on local files and again on the live GitHub Pages URLs:
 
-- Browser regression: search and HTML attack string; topic/level/impact filters; saved persistence; dark/light and Hinglish-tip persistence; sources; load more; answer toggles and completed quiz.
-- No page errors or horizontal overflow at 320, 390, 768 and 1280 pixels.
-- Visual inspection of both mobile themes and actual content cards.
-- No eval, user HTML, external runtime scripts or command execution. HTTPS reference URLs and bounded, schema-checked local state.
-- Examples listed below were checked on disposable local files. Network/services, ownership and signal examples were not run against a real machine; those use manual verification.
+- Initial progressive render (12 cards) and Load more (24)
+- Dynamic header counts match data.js exactly
+- Search with XSS string renders zero injected nodes
+- Topic filters including Security (LinuxReady)
+- Bookmark save, reload persistence, clear local data
+- Theme and Hinglish toggle persistence
+- Quiz: full 10-question run, exactly one correct option highlighted per question
+- Sources view lists 73 (LinuxReady) / 124 (CommandDeck) unique reference links
+- No horizontal overflow at 320/390/768/1280px
+- No page errors
 
-- ls: Executed successfully in disposable local lab
-- pwd: Executed successfully in disposable local lab
-- cd: Executed successfully in disposable local lab
-- mkdir: Executed successfully in disposable local lab
-- touch: Executed successfully in disposable local lab
-- cp: Executed successfully in disposable local lab
-- mv: Executed successfully in disposable local lab
-- cat: Executed successfully in disposable local lab
-- head: Executed successfully in disposable local lab
-- tail: Executed successfully in disposable local lab
-- wc: Executed successfully in disposable local lab
-- sort: Executed successfully in disposable local lab
-- uniq: Executed successfully in disposable local lab
-- cut: Executed successfully in disposable local lab
-- grep: Executed successfully in disposable local lab
-- find: Executed successfully in disposable local lab
-- chmod: Executed successfully in disposable local lab
-- chown: Source-checked; not executed (environment/impact)
-- id: Executed successfully in disposable local lab
-- groups: Executed successfully in disposable local lab
-- whoami: Executed successfully in disposable local lab
-- ln: Executed successfully in disposable local lab
-- readlink: Executed successfully in disposable local lab
-- stat: Executed successfully in disposable local lab
-- df: Executed successfully in disposable local lab
-- du: Executed successfully in disposable local lab
-- df (inodes): Executed successfully in disposable local lab
-- uname: Executed successfully in disposable local lab
-- nproc: Executed successfully in disposable local lab
-- date: Executed successfully in disposable local lab
-- uptime: Executed successfully in disposable local lab
-- free: Executed successfully in disposable local lab
-- ps: Executed successfully in disposable local lab
-- kill: Source-checked; not executed (environment/impact)
-- sleep: Executed successfully in disposable local lab
-- printf: Executed successfully in disposable local lab
-- command: Executed successfully in disposable local lab
-- type: Executed successfully in disposable local lab
-- export: Executed successfully in disposable local lab
-- history: Executed successfully in disposable local lab
-- ip address: Source-checked; not executed (environment/impact)
-- ip route: Source-checked; not executed (environment/impact)
-- ip link: Source-checked; not executed (environment/impact)
-- ss: Source-checked; not executed (environment/impact)
-- ssh: Source-checked; not executed (environment/impact)
-- ssh config test: Source-checked; not executed (environment/impact)
-- systemctl status: Source-checked; not executed (environment/impact)
-- systemctl is-active: Source-checked; not executed (environment/impact)
-- systemctl is-enabled: Source-checked; not executed (environment/impact)
-- systemctl list-units: Source-checked; not executed (environment/impact)
-- systemctl restart: Source-checked; not executed (environment/impact)
-- journalctl: Source-checked; not executed (environment/impact)
-- journalctl boot: Source-checked; not executed (environment/impact)
-- crontab: Source-checked; not executed (environment/impact)
-- basename: Executed successfully in disposable local lab
-- dirname: Executed successfully in disposable local lab
-- tee: Executed successfully in disposable local lab
-- env: Executed successfully in disposable local lab
-- printenv: Executed successfully in disposable local lab
-- sha256sum: Executed successfully in disposable local lab
+Content accuracy: quiz answers and Q&A text reviewed line by line against the linked manuals; ambiguous claims were qualified (e.g. merged-/usr, GNU find -size rounding, set -e exceptions, killall/pkill overlap). Command examples derived from opened manual pages; network/service-changing examples are manual-checked, not executed against a real server.
