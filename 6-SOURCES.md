@@ -1,0 +1,49 @@
+# Source ledger
+
+Original summaries from linked references, not verbatim copies. Reviewed 8 October 2026. Installed versions can differ.
+
+- https://linuxcommand.org/lc3_man_pages/basename1.html
+- https://linuxcommand.org/lc3_man_pages/cat1.html
+- https://linuxcommand.org/lc3_man_pages/chown1.html
+- https://linuxcommand.org/lc3_man_pages/cp1.html
+- https://linuxcommand.org/lc3_man_pages/cut1.html
+- https://linuxcommand.org/lc3_man_pages/date1.html
+- https://linuxcommand.org/lc3_man_pages/dirname1.html
+- https://linuxcommand.org/lc3_man_pages/env1.html
+- https://linuxcommand.org/lc3_man_pages/groups1.html
+- https://linuxcommand.org/lc3_man_pages/head1.html
+- https://linuxcommand.org/lc3_man_pages/id1.html
+- https://linuxcommand.org/lc3_man_pages/mkdir1.html
+- https://linuxcommand.org/lc3_man_pages/mv1.html
+- https://linuxcommand.org/lc3_man_pages/nproc1.html
+- https://linuxcommand.org/lc3_man_pages/printenv1.html
+- https://linuxcommand.org/lc3_man_pages/readlink1.html
+- https://linuxcommand.org/lc3_man_pages/sleep1.html
+- https://linuxcommand.org/lc3_man_pages/sort1.html
+- https://linuxcommand.org/lc3_man_pages/tail1.html
+- https://linuxcommand.org/lc3_man_pages/tee1.html
+- https://linuxcommand.org/lc3_man_pages/touch1.html
+- https://linuxcommand.org/lc3_man_pages/uniq1.html
+- https://linuxcommand.org/lc3_man_pages/uptime1.html
+- https://linuxcommand.org/lc3_man_pages/wc1.html
+- https://linuxcommand.org/lc3_man_pages/whoami1.html
+- https://man7.org/linux/man-pages/man1/bash.1.html
+- https://man7.org/linux/man-pages/man1/chmod.1.html
+- https://man7.org/linux/man-pages/man1/crontab.1.html
+- https://man7.org/linux/man-pages/man1/df.1.html
+- https://man7.org/linux/man-pages/man1/du.1.html
+- https://man7.org/linux/man-pages/man1/find.1.html
+- https://man7.org/linux/man-pages/man1/free.1.html
+- https://man7.org/linux/man-pages/man1/grep.1.html
+- https://man7.org/linux/man-pages/man1/kill.1.html
+- https://man7.org/linux/man-pages/man1/ls.1.html
+- https://man7.org/linux/man-pages/man1/sha256sum.1.html
+- https://man7.org/linux/man-pages/man1/ssh.1.html
+- https://man7.org/linux/man-pages/man1/stat.1.html
+- https://man7.org/linux/man-pages/man1/systemctl.1.html
+- https://man7.org/linux/man-pages/man1/uname.1.html
+- https://man7.org/linux/man-pages/man7/symlink.7.html
+- https://www.man7.org/linux/man-pages/man1/journalctl.1.html
+- https://www.man7.org/linux/man-pages/man1/ps.1.html
+- https://www.man7.org/linux/man-pages/man8/ip.8.html
+- https://www.man7.org/linux/man-pages/man8/ss.8.html
