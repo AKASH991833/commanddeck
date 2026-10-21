@@ -1,5 +1,10 @@
 # CommandDeck
 
+**Live site:** https://akash991833.github.io/commanddeck/
+
+![CommandDeck home](screenshots/home-desktop.png)
+
+
 292 command/use-case entries and 505 distinct example strings, including flag examples. These are not 292 unique executables.
 
 Major-topic map on the site, source links per card, dark/light, search, filters, local bookmarks. English technical answers plus optional Hinglish guidance. No accounts, telemetry, command execution or external runtime scripts.
